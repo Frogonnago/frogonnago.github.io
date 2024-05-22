@@ -40,7 +40,10 @@ section {
     margin-bottom: 40px;
 }
 
-/* Circle Container Styles */
+p {
+    color: #e29b5d;
+}
+
 .circle-container {
     background-color: white;
     border-radius: 50%;
@@ -48,11 +51,8 @@ section {
     margin: 0 auto;
     text-align: center;
     width: 80%;
+    height: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.circle-container img {
-    border-radius: 50%;
 }
 
 .large-circle-img {
@@ -78,7 +78,6 @@ hr {
     background-color: #e29b5d;
 }
 
-/* Section Specific Styles */
 #home h1 {
     font-size: 2.5em;
     color: #e29b5d;
