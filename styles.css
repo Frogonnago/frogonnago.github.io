@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #004d40;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d40;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Circle Container Styles */
+.circle-container {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle-container img {
+    border-radius: 50%;
+}
+
+.large-circle-img {
+    width: 150px;
+    height: 150px;
+}
+
+.medium-circle-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.small-circle-image {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #004d40;
+}
+
+hr1, hr2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #004d40;
+    margin: 20px 0;
+}
+
+/* Section Specific Styles */
+#home h1 {
+    font-size: 2.5em;
+    color: #004d40;
+}
+
+#home p {
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+#about h2, #hobbies h2, #links h2 {
+    color: #004d40;
+    text-align: center;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#about ul li {
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+#hobbies a {
+    text-decoration: none;
+}
+
+#hobbies a:hover {
+    text-decoration: underline;
+}
+
+#links a {
+    display: inline-block;
+    margin: 10px;
+}
