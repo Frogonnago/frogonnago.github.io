@@ -8,6 +8,10 @@ body {
 header {
     background-color: #e29b5d;
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 nav ul {
@@ -99,6 +103,7 @@ p {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    color: #e29b5d;
 }
 
 #about ul li {
