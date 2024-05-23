@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e0f7fa;
-    height: 100vh;
-    width: 100vw;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,8 +9,9 @@ body {
     align-items: center;
     text-align: center;
     background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXMxZjg2eDEydzJsMnVwZ3g2bmt4NHV5eG8wMzZsa3V5Nmp5cGluMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ei69IyyyIqc2lxn2DZ/giphy.gif');
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
+    background-position: center;
 }
 
 header {
@@ -21,7 +20,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-
+    text-align: center;
 }
 
 nav ul {
