@@ -27,7 +27,7 @@ body {
 
 header {
     background-color: #ffffff;
-    color: #e29b5d;
+    color: black;
     padding: 1em 0;
     position: fixed;
     top: 0;
@@ -52,7 +52,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e29b5d;
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -70,7 +70,7 @@ section {
 }
 
 p {
-    color: #e29b5d;
+    color: black;
 }
 
 .circle-container {
@@ -131,16 +131,16 @@ p {
 
 #home h1 {
     font-size: 2.5em;
-    color: #e29b5d;
+    color: black;
 }
 
 #home p {
     font-size: 1.2em;
-    color: #e29b5d;
+    color: black;
 }
 
 #about h2, #hobbies h2, #links h2 {
-    color: #e29b5d;
+    color: black;
     text-align: center;
 }
 
@@ -148,12 +148,12 @@ p {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    color: #e29b5d;
+    color: black;
 }
 
 #about ul li {
     font-size: 1.2em;
-    color: #e29b5d;
+    color: black;
 }
 
 #hobbies a {
