@@ -1,14 +1,3 @@
-@keyframes rotary {
-    0% {
-        transform: rotate(0deg);
-        opacity: 0;
-    }
-    100% {
-        transform: rotate(360deg);
-        opacity: 1;
-    }
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #e0f7fa;
@@ -86,7 +75,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: rotary 1s ease-out;
 }
 
 .large-circle-img {
