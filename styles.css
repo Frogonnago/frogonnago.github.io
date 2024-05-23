@@ -126,7 +126,7 @@ p {
 }
 
 .visible {
-    animation: rotary 2s ease-out forwards; /* Apply rotary animation when visible */
+    animation: rotary 1s ease-out forwards;
 }
 
 #home h1 {
