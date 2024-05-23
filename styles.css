@@ -1,3 +1,12 @@
+@keyframes rotary {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #e0f7fa;
@@ -21,7 +30,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 nav ul {
@@ -71,6 +80,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: rotary 1s linear infinite;
 }
 
 .large-circle-img {
@@ -78,6 +88,7 @@ p {
     height: 300px;
     margin: 10px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .medium-circle-image {
@@ -85,6 +96,7 @@ p {
     height: 200px;
     margin: 10px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .small-circle-image {
@@ -92,12 +104,19 @@ p {
     height: 100px;
     margin: 5px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .small-square-image {
     width: 100px;
     height: 100px;
     margin: 5px;
+}
+
+.album-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #home h1 {
