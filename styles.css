@@ -1,9 +1,11 @@
 @keyframes rotary {
     0% {
         transform: rotate(0deg);
+        opacity: 0;
     }
     100% {
         transform: rotate(360deg);
+        opacity: 1;
     }
 }
 
@@ -31,6 +33,10 @@ header {
     top: 0;
     width: 100%;
     text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1000;
 }
 
 nav ul {
@@ -80,12 +86,12 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: rotary 1s linear infinite;
+    animation: rotary 1s ease-out;
 }
 
 .large-circle-img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     border-radius: 50%;
     object-fit: cover;
