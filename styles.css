@@ -10,14 +10,18 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    overflow: hidden;
     background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXMxZjg2eDEydzJsMnVwZ3g2bmt4NHV5eG8wMzZsa3V5Nmp5cGluMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ei69IyyyIqc2lxn2DZ/giphy.gif');
     background-size: cover;
+    background-repeat: repeat;
 }
 
 header {
     background-color: #ffffff;
     padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 nav ul {
